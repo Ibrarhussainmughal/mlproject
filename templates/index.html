@@ -1,1 +1,26 @@
-<h1>Welcome to the home page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="glass-card" style="text-align: center;">
+            <h1>🚀 Future Predictor</h1>
+            <h2>Unlock the potential of student performance with AI.</h2>
+            <p style="margin-bottom: 2rem; color: #d1d1d1; line-height: 1.6;">
+                Our advanced Machine Learning model analyzes multiple factors to predict math scores with high accuracy.
+                Experience the power of data-driven insights today.
+            </p>
+            <a href="/predictdata" class="btn btn-primary">Start Prediction</a>
+        </div>
+        <footer>
+            <p>Powered by CatBoost & Scikit-Learn</p>
+        </footer>
+    </div>
+</body>
+</html>
